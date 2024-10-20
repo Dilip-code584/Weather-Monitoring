@@ -1,9 +1,14 @@
 
 Real-Time Weather Monitoring System with Rollups and Aggregates
 
+Use weather_monitor.py for this
+
 ![image](https://github.com/user-attachments/assets/cd5a0087-5222-4360-bdc7-0b23335eeb38)
 
 ![image](https://github.com/user-attachments/assets/2158a159-ed90-4c2d-af06-2bbef6c553a6)
+
+With Average Temperature(Please Use Weather_monitor1.py for this)
+![image](https://github.com/user-attachments/assets/83581646-6b41-45da-9582-215363d5b778)
 
 
 This project is a real-time data processing system that monitors weather conditions across major metropolitan cities in India. Using data from the OpenWeatherMap API, it retrieves, processes, and summarizes weather data at configurable intervals, providing useful insights via rollups and aggregates.
