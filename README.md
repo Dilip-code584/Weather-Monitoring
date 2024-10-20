@@ -102,11 +102,11 @@ Create a .env file in the root directory and add your API key:
 
 API_KEY=your_openweathermap_api_key
 
-Usage
+Usage ✨
 
 Configure cities and polling interval: Edit the config.py file to customize the list of cities and how often data is retrieved.
 
-Run the application:
+Run the application: ✨
 
 python weather_monitor.py
 
