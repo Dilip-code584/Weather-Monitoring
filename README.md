@@ -9,6 +9,7 @@ Use weather_monitor.py for this
 
 With Average Temperature(Please Use Weather_monitor1.py for this, I've used the same filename with different code)
 ![image](https://github.com/user-attachments/assets/83581646-6b41-45da-9582-215363d5b778)
+
 ![image](https://github.com/user-attachments/assets/43b47440-1879-4ede-9a93-28b84f2c216c)
 
 
