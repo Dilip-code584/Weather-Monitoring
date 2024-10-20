@@ -24,6 +24,50 @@ Weather metrics: Focuses on key weather parameters such as temperature, humidity
 
 Rollups and aggregates: Summarized insights such as average, minimum, and maximum values over time for easy analysis.(Additional Functionalities)
 
+Security Points:
+API Key Management:
+
+Store the API key in environment variables (.env file), not hardcoded in the source code.
+Use libraries like python-dotenv to securely load the API key into the application.
+Regenerate API keys periodically and limit the scope/permissions of the key where possible.
+Rate Limiting:
+
+Implement rate-limiting logic to avoid exceeding the OpenWeatherMap API's quota. Consider caching results for a short period to avoid redundant requests.
+Data Sanitization:
+
+Sanitize and validate inputs, such as city names or user inputs (if applicable) to prevent injection attacks or malformed requests.
+Secure Web Access (Optional Web Interface):
+
+If you develop a web-based dashboard (Flask/Django), ensure HTTPS is used.
+Implement strong session management, and secure cookies (HttpOnly, Secure, etc.).
+Sensitive Data Protection:
+
+If storing weather data for a longer term (in databases like SQLite/PostgreSQL), ensure the database is properly secured with authentication and encryption.
+Access Control:
+
+Limit access to certain functionalities (e.g., admin features) and protect the interface using proper authentication mechanisms.
+Performance Points:
+Efficient Data Fetching:
+
+Use asynchronous programming (e.g., asyncio, aiohttp) to fetch weather data concurrently for multiple cities rather than sequentially.
+Minimize redundant API calls by caching weather data for a configurable duration.
+Database Optimization (Optional):
+
+If you store data for historical analysis, ensure the database schema is optimized for time-series data. Use appropriate indexing for faster queries on weather data.
+Load Balancing (Optional Web Interface):
+
+If scaling the application with a web interface, implement load balancing to distribute incoming requests across multiple instances for better performance.
+Optimize Data Processing:
+
+Use pandas for efficient data processing and summarization of weather data (min, max, average) across time intervals.
+Batch-process large amounts of data rather than processing each weather record individually to reduce overhead.
+Resource Management:
+
+Limit system resource usage by setting configurable timeouts for API calls and offload intensive tasks (like aggregating historical data) to background workers (e.g., Celery).
+Concurrency & Scheduling:
+
+Use task scheduling libraries (e.g., Celery, APScheduler) to ensure weather data is retrieved efficiently and at consistent intervals without blocking the main application thread.
+
 Tech Stack
 Python 3: Core programming language.
 
