@@ -15,7 +15,7 @@ Configurable polling interval: Set how frequently the system retrieves new weath
 
 Weather metrics: Focuses on key weather parameters such as temperature, humidity, wind speed, and atmospheric pressure.
 
-Rollups and aggregates: Summarized insights such as average, minimum, and maximum values over time for easy analysis.
+Rollups and aggregates: Summarized insights such as average, minimum, and maximum values over time for easy analysis.(Additional Functionalities)
 
 Tech Stack
 Python 3: Core programming language.
