@@ -15,7 +15,7 @@ With Average Temperature(Please Use Weather_monitor1.py for this, I've used the 
 
 This project is a real-time data processing system that monitors weather conditions across major metropolitan cities in India. Using data from the OpenWeatherMap API, it retrieves, processes, and summarizes weather data at configurable intervals, providing useful insights via rollups and aggregates.
 
-Features
+Features✨
 Real-time weather data: Continuously fetches weather data for major Indian metros (Delhi, Mumbai, Chennai, Bangalore, Kolkata, Hyderabad).
 
 Configurable polling interval: Set how frequently the system retrieves new weather data (e.g., every 30 seconds).
@@ -24,7 +24,7 @@ Weather metrics: Focuses on key weather parameters such as temperature, humidity
 
 Rollups and aggregates: Summarized insights such as average, minimum, and maximum values over time for easy analysis.(Additional Functionalities)
 
-Security Points:
+Security Points:✨
 API Key Management:
 
 Store the API key in environment variables (.env file), not hardcoded in the source code.
@@ -46,7 +46,7 @@ If storing weather data for a longer term (in databases like SQLite/PostgreSQL),
 Access Control:
 
 Limit access to certain functionalities (e.g., admin features) and protect the interface using proper authentication mechanisms.
-Performance Points:
+Performance Points:✨
 Efficient Data Fetching:
 
 Use asynchronous programming (e.g., asyncio, aiohttp) to fetch weather data concurrently for multiple cities rather than sequentially.
@@ -68,7 +68,7 @@ Concurrency & Scheduling:
 
 Use task scheduling libraries (e.g., Celery, APScheduler) to ensure weather data is retrieved efficiently and at consistent intervals without blocking the main application thread.
 
-Tech Stack
+Tech Stack✨
 Python 3: Core programming language.
 
 OpenWeatherMap API: Data source for weather conditions.
@@ -82,7 +82,7 @@ Flask/Django (Optional): Web interface for displaying summarized data.
 Celery (Optional): For scheduling periodic data retrieval.
 
 
-Installation
+Installation✨
 Clone the repository:
 
 cd weather-monitoring-system
