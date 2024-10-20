@@ -44,7 +44,7 @@ Configure cities and polling interval: Edit the config.py file to customize the 
 
 Run the application:
 
-python weather_monitoring.py
+python weather_monitor.py
 This will start the system, which will retrieve weather data at regular intervals as defined in the configuration.
 
 View rollups and aggregates: Insights such as average temperature, humidity trends, and more will be available in the terminal or the optional web interface.
